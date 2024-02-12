@@ -85,7 +85,7 @@ function loadQuestion() {
   const h2 = document.querySelector("h2");
   const wordDisplay = document.querySelector(".word-display");
 
-  h2.innerText = `Hint: ${hint}`;
+  h2.innerText = `🤐: ${hint}`;
 
   for (let i = 0; i < word.length; i++) {
     let liTag = document.createElement("li");

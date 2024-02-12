@@ -1,0 +1,227 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, p {
+    color: rgb(133, 121, 113);
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 15px;
+    margin-bottom: auto;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+p {
+    margin: auto;
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+.main {
+    background-color: rgba(192, 224, 228, 0.901);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    background-color: #fff;
+    width: 650px;
+    height: 700px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.top, .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.bottom {
+    width: 76%;
+}
+
+.word-display {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.letter {
+    list-style: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 30px;
+    margin-bottom: 3px;
+    border-bottom: 3px solid #000;
+}
+
+.letter.guess {
+    border: transparent;
+    margin-top: -30px;
+}
+
+.keyboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.btn {
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(159, 143, 133);
+    color: rgb(240, 240, 173);
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.GameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 370px;
+    height: 110px;
+    display: none;
+    text-align: center;
+}
+
+.GameOver.show {
+    display: block;
+    background-color: rgb(240, 240, 173);
+}
+
+.GameOver h2 {
+    font-size: 25px;
+}
+
+.GameOver h4 {
+    font-size: 12px;
+}
+
+.GameOver button {
+    width: 110px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(119, 197, 109, 0.827);
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .game {
+        flex-direction: column;
+        height: 650px;
+        width: 450px;
+        gap: 1.7rem;
+    }
+
+    .img {
+        width: 240px;
+        margin-bottom: 50px;
+    }
+
+    html {
+        font-size: 95%;
+    }
+
+    .btn {
+        width: 40px;
+        height: 30px;
+        background-color: rgba(192, 224, 228, 0.901);
+        color: #fff;
+    }
+
+    .top, .bottom {
+        width: 100%;
+        height: 40%;
+    }
+
+    .top h1 {
+        display: none;
+    }
+
+    .bottom {
+        width: 90%;
+    }
+}
+
+@media (max-width: 346px) {
+    .game {
+        gap: 1.7rem;
+    }
+
+    .img {
+        width: 230px;
+        margin-bottom: 50px;
+    }
+
+    html {
+        font-size: 95%;
+    }
+
+    .btn {
+        width: 27px;
+        height: 30px;
+        background-color: rgba(192, 224, 228, 0.901);
+        color: #fff;
+    }
+
+    .top, .bottom {
+        width: 100%;
+        height: 40%;
+    }
+
+    .top h1 {
+        display: none;
+    }
+
+    .bottom {
+        width: 90%;
+    }
+}

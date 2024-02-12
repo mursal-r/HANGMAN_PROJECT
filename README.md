@@ -7,9 +7,8 @@ Hangman is a classic word-guessing game in which the player has multiple chances
 
 **LIVE IMAGES OF GAME BEING PLAYED:**
 
-<img width="792" alt="GAME SCREENSHOT 1" src="https://github.com/mursal-r/HANGMAN_PROJECT/assets/157185506/6e3aa444-07ca-4c50-96d5-423cd28c8b73">
-<img width="787" alt="GAME SCREENSHOT 3" src="https://github.com/mursal-r/HANGMAN_PROJECT/assets/157185506/b449ded9-a7b0-42e9-98cf-5beba2934d84">
-<img width="810" alt="GAME SCREENSHOT 2" src="https://github.com/mursal-r/HANGMAN_PROJECT/assets/157185506/accfb29e-f3a6-459b-8f83-13a07ed65b18">
+<img width="618" alt="Screenshot 2024-02-12 at 8 11 48 AM" src="https://github.com/mursal-r/HANGMAN_PROJECT/assets/157185506/469d18b6-1a0b-49a6-9ce1-61e05a64f886">
+<img width="631" alt="Screenshot 2024-02-12 at 8 11 57 AM" src="https://github.com/mursal-r/HANGMAN_PROJECT/assets/157185506/1d617bfd-4282-4604-a0c9-10fa9c280630">
 
 
 

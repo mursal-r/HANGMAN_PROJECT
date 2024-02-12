@@ -16,7 +16,7 @@ Hangman is a classic word-guessing game in which the player has multiple chances
 
 
 
-**PLAY HERE:**  https://mursal-r.github.io/HANGMAN_PROJECT
+**PLAY HERE:**  https://mursal-r.github.io/HANGMAN_PROJECT1
 
 
 

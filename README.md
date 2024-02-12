@@ -1,7 +1,7 @@
 # HANGMAN_PROJECT
 
 **INTRO TO HANGMAN GAME:**
-Hangman is a classic word-guessing game in which the player has 7 chances to guess the correct word. Each word is provided with a hint in order to guide your guess.
+Hangman is a classic word-guessing game in which the player chances to guess the correct word. Each word is provided with a hint in order to guide your guess.
 
 
 
